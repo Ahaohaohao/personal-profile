@@ -1,7 +1,7 @@
     
 # 👨🚀🌌 **银河开发者档案**  
 **[Ahaohaohao]** | 代码星系探险家 | 开源领航者  
-<script src="http://www.qqpr.com/ascii/js/1071.js" ></script>
+&lt;script src="http://www.qqpr.com/ascii/js/1071.js" &gt;&lt;/script&gt;
 
 ## 🔥 **量子仪表盘**  
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=Ahaohaohao&show_icons=true&theme=synthwave&count_private=true&include_all_commits=true&hide_border=true)  
