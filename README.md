@@ -38,9 +38,7 @@
     "JavaScript" : 25
     "Java" : 15
     "Go" : 10
-    "Rust" : 10
-    "其他" : 5
-
+    "其他" : 15
 | 🔭 宇宙级工具 | 🌌 星际框架 | 🛸 云端引擎 |
 |--------------|------------|------------|
 | Git, VS Code | React, Vue | AWS, GCP  |
@@ -63,9 +61,6 @@
 2. 🌟 收藏我的核心项目获取最新动态  
 3. 🚀 提交ISSUE共同解决技术难题  
 4. 📧 发送PR参与代码星系的建造  
-
-## 🌠 **实时贡献热力图**  
-![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=Ahaohaohao&bg_color=1F222E&color=8A4BFF&line=8A4BFF&point=FFFFFF&hide_border=true)  
 
 ## 🌠 **每日星光语录**  
 > "在学习过程中，探索使用顶级语句生成代码的想法。" ✨  
