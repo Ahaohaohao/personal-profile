@@ -15,7 +15,7 @@
 5. 🎉 发布了 [clash-verge-rev-modification](https://github.com/Ahaohaohao/clash-verge-rev-modification) 的 v1.0.0 版本  
 <!--END_SECTION:activity-->  
 
-## 
+## ♻️ 经常使用
 | 🔭 工具 | 🌌 框架 | 🛸 引擎 |
 |--------------|------------|------------|
 | Git, VS Code | React, Vue | AWS, GCP  |
