@@ -46,9 +46,6 @@
 - Github：[https://github.com/Ahaohaohao](https://github.com/Ahaohaohao)  
 - TG：[https://t.me/huantiande](https://t.me/huantiande)  
 
-## 🔥 我的 GitHub 活跃度  
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Ahaohaohao&theme=radical)  
-
 ## 🌟 访问量统计  
 ![Visitor Count](https://profile-counter.glitch.me/Ahaohaohao/count.svg)  
 
