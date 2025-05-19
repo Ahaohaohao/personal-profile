@@ -12,8 +12,6 @@
 2. 🐛 修复了 [Kernel-sucker](https://github.com/Ahaohaohao/Kernel-sucker) 中的一个严重 bug  
 3. 💬 参与了 [clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) 的讨论  
 4. 🌟 为 [Self-configuration-node](https://github.com/Ahaohaohao/Self-configuration-node) 添加了新的文档  
-5. 🎉 发布了 [clash-verge-rev-modification](https://github.com/Ahaohaohao/clash-verge-rev-modification) 的 v1.0.0 版本  
-<!--END_SECTION:activity-->  
 
 ## ♻️ 经常使用
 | 🔭 工具 | 🌌 框架 | 🛸 引擎 |
