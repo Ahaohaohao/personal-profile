@@ -9,10 +9,6 @@ _专注于构建可扩展的 Web 应用与分布式系统_
 
 [![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Ahaohaohao&show_icons=true&theme=radical&count_private=true&hide_border=true&custom_title=我的GitHub概况&border_radius=10)](https://github.com/Ahaohaohao)
 
-### 🔤 技术语言分布
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Ahaohaohao&layout=compact&theme=radical&hide_border=true&langs_count=8&border_radius=10&custom_title=常用开发语言&order=PHP)](https://github.com/Ahaohaohao)
-
 ## 🌱 近期开源动态
 
 ### 🚧 项目开发进展
@@ -23,7 +19,7 @@ _专注于构建可扩展的 Web 应用与分布式系统_
    [查看提交](https://github.com/Ahaohaohao/Kernel-sucker)
 2. 🐛 **Kernel-sucker** - 修复内存泄漏导致的系统崩溃问题
    [查看 Issue](https://github.com/Ahaohaohao/Kernel-sucker/issues/12)
-3. 💡 **clash-verge-rev** - 参与代理规则匹配算法讨论
+3. 💡 **clash-verge-rev** - 使用洗牌算法修复 IP 检测问题
    [查看讨论](https://github.com/clash-verge-rev/clash-verge-rev/discussions/45)
 4. 📖 **Self-configuration-node** - 完善自动化部署文档
 [查看文档](https://github.com/Ahaohaohao/Self-configuration-node/blob/main/README.md)
@@ -68,7 +64,6 @@ _专注于构建可扩展的 Web 应用与分布式系统_
 | **电子邮箱** | [yaogunnvhai0408@gmail.com](mailto:yaogunnvhai0408@gmail.com) 📩 |
 | **GitHub**   | [Ahaohaohao](https://github.com/Ahaohaohao) ➡️ 开源项目          |
 | **Telegram** | [@huantiande](https://t.me/huantiande) 📱 技术交流               |
-| **LinkedIn** | [待补充] 🌐 职业动态（即将上线）                                 |
 
 ### 📊 访客统计
 

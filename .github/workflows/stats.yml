@@ -1,39 +1,69 @@
-name: Update Stats
+name: Update GitHub Stats
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # 每天执行一次
+    - cron: '0 0 * * *'  # 每天午夜执行
   workflow_dispatch:
 
 jobs:
   update-stats:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
-      - uses: actions/checkout@v3
-
-      - name: Generate Stats
-        uses: anuraghazra/github-readme-stats@master
+      - name: Checkout repository
+        uses: actions/checkout@v4
         with:
-          username: [Ahaohaohao]
-          theme: radical
+          token: ${{ secrets.GITHUB_TOKEN }}
+          ref: ${{ github.ref_name }}
+          fetch-depth: 0
+
+      - name: Generate GitHub Stats
+        uses: anuraghazra/github-readme-stats@v5.0.0
+        with:
+          username: Ahaohaohao
+          theme: transparent
           show_icons: true
           count_private: true
           include_all_commits: true
-          custom_title: GitHub Stats
+          custom_title: GitHub Activity Stats
           hide_border: true
           cache_seconds: 86400
-          filename: README.md
-          output: README.md
+          filename: github-stats.svg
+          output: ./github-stats.svg
 
-      - name: Commit changes
+      - name: Commit and push changes
+        id: git-commit
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add README.md
-          git commit -m "Update GitHub stats" || echo "No changes to commit"
+          if [[ $(git status --porcelain) ]]; then
+            git config --local user.email "github-actions[bot]@users.noreply.github.com"
+            git config --local user.name "github-actions[bot]"
+            git add github-stats.svg
+            git commit -m "🔄 Auto-update GitHub stats"
+            echo "changes_detected=true" >> $GITHUB_ENV
+          else
+            echo "No changes to commit"
+            echo "changes_detected=false" >> $GITHUB_ENV
+          fi
+        shell: bash
 
-      - name: Push changes
-        uses: ad-m/github-push-action@master
+      - name: Push changes to GitHub
+        if: env.changes_detected == 'true'
+        uses: ad-m/github-push-action@v0.8.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${{ github.ref }}
+          branch: ${{ github.ref_name }}
+          commit_message: "🔄 Auto-update GitHub stats"
+          force: false
+
+      - name: Notify on failure
+        if: failure()
+        uses: rtCamp/action-slack-notify@v2
+        env:
+          SLACK_CHANNEL: alerts
+          SLACK_COLOR: '#FF0000'
+          SLACK_ICON: https://github.com/rtCamp.png?size=48
+          SLACK_MESSAGE: '⚠️ GitHub Stats 更新失败'
+          SLACK_TITLE: GitHub Actions 警报
+          SLACK_USERNAME: GitHub Actions
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
