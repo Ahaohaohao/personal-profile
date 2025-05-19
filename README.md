@@ -9,6 +9,10 @@ _专注于构建可扩展的 Web 应用与分布式系统_
 
 [![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Ahaohaohao&show_icons=true&theme=radical&count_private=true&hide_border=true&custom_title=我的GitHub概况&border_radius=10)](https://github.com/Ahaohaohao)
 
+### 🔤 技术语言分布
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Ahaohaohao&layout=compact&theme=radical&hide_border=true&langs_count=8&border_radius=10&custom_title=常用开发语言&order=PHP)](https://github.com/Ahaohaohao)
+
 ## 🌱 近期开源动态
 
 ### 🚧 项目开发进展
