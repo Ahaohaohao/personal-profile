@@ -1,52 +1,79 @@
-# 🚀 Hello, I'm Ahaohaohao!  
+# 👋 Hello, I'm Ahaohaohao!
 
-## 🌟 GitHub 统计数据  
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Ahaohaohao&show_icons=true&theme=radical&count_private=true)  
+**全栈开发咸鱼 | 云原生技术爱好者 | 开源贡献者**
+_专注于构建可扩展的 Web 应用与分布式系统_
 
-## 💻 我的开发技能  
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Ahaohaohao&layout=compact&theme=radical)  
+## 🚀 GitHub 数据看板
 
-## 📊 近期项目动态  
-<!--START_SECTION:activity-->  
-1. ✅ 提交了新功能到 [Kernel-sucker](https://github.com/Ahaohaohao/Kernel-sucker)  
-2. 🐛 修复了 [Kernel-sucker](https://github.com/Ahaohaohao/Kernel-sucker) 中的一个严重 bug  
-3. 💬 参与了 [clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) 的讨论  
-4. 🌟 为 [Self-configuration-node](https://github.com/Ahaohaohao/Self-configuration-node) 添加了新的文档  
+### 📊 开发者统计
 
-## ♻️ 经常使用
-| 🔭 工具 | 🌌 框架 | 🛸 引擎 |
-|--------------|------------|------------|
-| Git, VS Code | React, Vue | AWS, GCP  |
-| Docker, CI/CD | Spring Boot | Firebase |
-| SQL, NoSQL  | Next.js    | Kubernetes|
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Ahaohaohao&show_icons=true&theme=radical&count_private=true&hide_border=true&custom_title=我的GitHub概况&border_radius=10)](https://github.com/Ahaohaohao)
 
-## 🛠️ 我的技术栈  
-### 编程语言  
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)  
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)  
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)  
+### 🔤 技术语言分布
 
-### 前端框架  
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)  
-![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D)  
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Ahaohaohao&layout=compact&theme=radical&hide_border=true&langs_count=8&border_radius=10&custom_title=常用开发语言&order=PHP)](https://github.com/Ahaohaohao)
 
-### 后端技术  
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)  
-![Express](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)  
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)  
+## 🌱 近期开源动态
 
-### 数据库  
-![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)  
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)  
+### 🚧 项目开发进展
 
-## 📫 联系我  
-- 邮箱：[yaogunnvhai0408@gmail.com](mailto:yaogunnvhai0408@gmail.com)  
-- Github：[https://github.com/Ahaohaohao](https://github.com/Ahaohaohao)  
-- TG：[https://t.me/huantiande](https://t.me/huantiande)  
+<!--START_SECTION:activity-->
 
-## 🌟 访问量统计  
-![Visitor Count](https://profile-counter.glitch.me/Ahaohaohao/count.svg)  
+1. ✅ **Kernel-sucker** - 新增内核性能监控模块
+   [查看提交](https://github.com/Ahaohaohao/Kernel-sucker)
+2. 🐛 **Kernel-sucker** - 修复内存泄漏导致的系统崩溃问题
+   [查看 Issue](https://github.com/Ahaohaohao/Kernel-sucker/issues/12)
+3. 💡 **clash-verge-rev** - 参与代理规则匹配算法讨论
+   [查看讨论](https://github.com/clash-verge-rev/clash-verge-rev/discussions/45)
+4. 📖 **Self-configuration-node** - 完善自动化部署文档
+[查看文档](https://github.com/Ahaohaohao/Self-configuration-node/blob/main/README.md)
+<!--END_SECTION:activity-->
 
-## 🎯 目标  
-> 不断学习，不断成长，用代码创造价值！  
-    
+## ⚙️ 专业技术栈
+
+### 🛠️ 工具与技术矩阵
+
+| 领域         | 核心工具/技术                           | 熟练程度 |
+| ------------ | --------------------------------------- | -------- |
+| **开发工具** | Git, VS Code, Docker, Jenkins CI/CD     | ★★★★☆    |
+| **前端开发** | React.js, Vue.js, Next.js, Tailwind CSS | ★★★★☆    |
+| **后端开发** | Node.js, Express, Spring Boot, Django   | ★★★★☆    |
+| **云服务**   | AWS EC2/S3, GCP Compute, Kubernetes     | ★★★☆☆    |
+| **数据库**   | MySQL, MongoDB, Redis, PostgreSQL       | ★★★★☆    |
+
+### 🏆 技术认证徽章
+
+#### 编程语言
+
+![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white&label=主要语言)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black&label=前端主力)
+![Java](https://img.shields.io/badge/Java-17-ED8B00?style=for-the-badge&logo=java&logoColor=white&label=企业级开发)
+
+#### 云原生技术
+
+![Kubernetes](https://img.shields.io/badge/Kubernetes-1.27+-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+
+#### 开发流程
+
+![Git](https://img.shields.io/badge/Git-Flow-EC4D28?style=for-the-badge&logo=git&logoColor=white)
+![Jenkins](https://img.shields.io/badge/Jenkins-2.300+-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
+
+## 📬 商务合作与联系
+
+### 📧 联系方式
+
+| 平台         | 信息                                                             |
+| ------------ | ---------------------------------------------------------------- |
+| **电子邮箱** | [yaogunnvhai0408@gmail.com](mailto:yaogunnvhai0408@gmail.com) 📩 |
+| **GitHub**   | [Ahaohaohao](https://github.com/Ahaohaohao) ➡️ 开源项目          |
+| **Telegram** | [@huantiande](https://t.me/huantiande) 📱 技术交流               |
+| **LinkedIn** | [待补充] 🌐 职业动态（即将上线）                                 |
+
+### 📊 访客统计
+
+![Visitor Count](https://profile-counter.glitch.me/Ahaohaohao/count.svg)
+
+### ✨ 长期愿景
+
+致力于通过技术创新解决复杂业务场景问题，推动开源社区发展，成为技术咸鱼！！！

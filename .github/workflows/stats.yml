@@ -10,11 +10,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      
+
       - name: Generate Stats
         uses: anuraghazra/github-readme-stats@master
         with:
-          username: [your_username]
+          username: [Ahaohaohao]
           theme: radical
           show_icons: true
           count_private: true
@@ -24,17 +24,16 @@ jobs:
           cache_seconds: 86400
           filename: README.md
           output: README.md
-          
+
       - name: Commit changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add README.md
           git commit -m "Update GitHub stats" || echo "No changes to commit"
-          
+
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: ${{ github.ref }}
-    
