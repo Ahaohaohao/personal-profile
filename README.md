@@ -62,8 +62,6 @@ _专注于构建可扩展的 Web 应用与分布式系统_
 
 | 平台         | 信息                                                             |
 | ------------ | ---------------------------------------------------------------- |
-| **电子邮箱** | [yaogunnvhai0408@gmail.com](mailto:yaogunnvhai0408@gmail.com) 📩 |
-| **GitHub**   | [Ahaohaohao](https://github.com/Ahaohaohao) ➡️ 开源项目          |
 | **Telegram** | [@huantiande](https://t.me/huantiande) 📱 技术交流               |
 
 ### 📊 访客统计
