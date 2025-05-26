@@ -20,9 +20,7 @@ _专注于构建可扩展的 Web 应用与分布式系统_
    [查看提交](https://github.com/Ahaohaohao/Kernel-sucker)
 2. 🐛 **Kernel-sucker** - 修复内存泄漏导致的系统崩溃问题
    [查看 Issue](https://github.com/Ahaohaohao/Kernel-sucker/issues/12)
-3. 💡 **clash-verge-rev** - 使用洗牌算法修复 IP 检测问题
-   [查看讨论](https://github.com/clash-verge-rev/clash-verge-rev/discussions/45)
-4. 📖 **Self-configuration-node** - 完善自动化部署文档
+3. 📖 **Self-configuration-node** - 完善自动化部署文档
 [查看文档](https://github.com/Ahaohaohao/Self-configuration-node/blob/main/README.md)
 <!--END_SECTION:activity-->
 
